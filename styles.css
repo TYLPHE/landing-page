@@ -1,0 +1,139 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color:white;
+    padding: 0 10%;
+}
+
+.photo{
+    background-color: #6d747d;
+    width: 80vw;
+    height: 17.5vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color:white;
+}
+.intro{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 5% 10%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+}
+
+.explain{
+    display:flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 4.5vw;
+    font-weight: 900;
+}
+
+.signup-link{
+    justify-self: start;
+    align-self: start;
+    background-color: #3b82f6;
+    border-radius: 1vw;
+    font-weight: 900;
+    padding: 1vw 3vw;
+}
+.bottom{
+    border: .3vw solid white;
+}
+.info-squares{
+    display:flex;
+    flex-direction: column;
+    padding: 5% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display:flex;
+    flex-direction: column;
+}
+
+.card-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+    padding: 0% 10%;
+}
+.squares{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+.square-photo{
+    width: 17vw;
+    height: 17vw;    
+    border: .3vw solid blue;
+    border-radius: 2vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.square-info{
+    text-align: center;
+}
+.quote{
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.text{
+    font-size: 3.5vw;
+    font-style: italic;
+    color: #1f2937
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: 900;
+}
+.bottom-signup{
+    padding:5% 10%;
+}
+.bottom-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b82f6;
+    color: white;
+    padding: 5%;
+    border-radius: 1vw;
+}
+.l-cont-title{
+    font-weight: 900;
+}
