@@ -17,17 +17,42 @@ header{
     align-items: center;
     background-color: #1f2937;
     color:white;
-    padding: 0 10%;
+    padding: 1% 10%;
+}
+.logo{
+    border: 1px solid white;
+    border-radius: 100%;
+    height:10vw;
+    width: 10vw;
+    overflow: hidden;
+}
+.logo-image{
+    position: relative;
+    top:-13.5vw;
+    left:-15.0vw;
+    width: 350%;
+    height: auto;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
 }
 
 .photo{
     background-color: #6d747d;
-    width: 80vw;
+    width: 150vw;
     height: 17.5vw;
     display:flex;
     align-items: center;
     justify-content: center;
 }
+.photo-image{
+    width: 100%;
+}
+
 footer{
     display:flex;
     justify-content: center;
@@ -84,14 +109,13 @@ footer{
     justify-content: space-between;
     align-items: center;
     gap: 3vw;
-    padding: 0% 10%;
 }
 .squares{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5% 0;
+    padding: 5vw 0;
 }
 .square-photo{
     width: 17vw;
@@ -101,6 +125,30 @@ footer{
     display:flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+.square-photo-photo-1{
+    position: relative;
+    left: -3vw;
+    width: 40vw;
+}
+.square-photo-photo-2{
+    position: relative;
+    left: 2.5vw;
+    top: 2vw;
+    width: 25vw;
+}
+.square-photo-photo-3{
+    position: relative;
+    left: -14vw;
+    top: -6vw;
+    height: 30vw;
+}
+.square-photo-photo-4{
+    position: relative;
+    left: 1vw;
+    top: -3vw;
+    height: 50vw;
 }
 .square-info{
     text-align: center;
@@ -113,6 +161,7 @@ footer{
 }
 
 .text{
+    text-align: center;
     font-size: 3.5vw;
     font-style: italic;
     color: #1f2937
